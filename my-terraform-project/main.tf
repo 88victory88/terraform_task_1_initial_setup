@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "my-first-group-resources"
+  name     = "my-test-changes-group-resources"
   location = "West Europe"
 }
 
